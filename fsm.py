@@ -1,5 +1,5 @@
 from enum import Enum,auto
-from soal import soal
+#from soal import soal
 class State(Enum):
     
     Start=auto()

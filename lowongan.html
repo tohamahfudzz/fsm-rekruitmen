@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<title>Lowongan</title>
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+<div class="hero">
+<div class="hero-content">
+<h1>Lowongan Pekerjaan</h1>
+<p>Bergabung dengan tim kami di dunia teknologi modern.</p>
+</div>
+</div>
+
+<nav>
+<a href="index.html">Dashboard</a>
+<a class="active" href="lowongan.html">Lowongan</a>
+<a href="tentang.html">Tentang</a>
+<a href="kontak.html">Kontak</a>
+</nav>
+
+<div id="chat-popup" style="position:fixed; bottom:20px; right:20px; width:300px; background:white; border:1px solid black;">
+    <div id="chat-log" style="height:200px; overflow-y:scroll;"></div>
+    <input type="text" id="user-input" placeholder="Ketik jawaban...">
+    <button onclick="kirimPesan()">Kirim</button>
+</div>
+
+<script>
+async function kirimPesan() {
+    let input = document.getElementById('user-input');
+    let response = await fetch('/chat', {
+        method: 'POST',
+        headers: {'Content-Type': 'application/json'},
+        body: JSON.stringify({message: input.value})
+    });
+    let data = await response.json();
+    document.getElementById('chat-log').innerHTML += `<p>Bot: ${data.response}</p>`;
+    input.value = '';
+}
+</script>
+
+<div class="container grid">
+
+<div class="card">
+<h2>Frontend Developer</h2>
+<p>Membuat tampilan website modern.</p>
+<ul>
+<li>HTML, CSS, JS</li>
+<li>Responsive UI</li>
+<li>Team work</li>
+</ul>
+</div>
+
+<div class="card">
+<h2>Backend Developer</h2>
+<p>Mengelola sistem server.</p>
+<ul>
+<li>Python / PHP</li>
+<li>Database</li>
+<li>API</li>
+</ul>
+</div>
+
+<div class="card">
+<h2>UI/UX Designer</h2>
+<p>Mendesain tampilan aplikasi.</p>
+<ul>
+<li>Figma</li>
+<li>Wireframe</li>
+<li>User experience</li>
+</ul>
+</div>
+
+<div class="card">
+<h2>IT Support</h2>
+<p>Mendukung sistem perusahaan.</p>
+<ul>
+<li>Network</li>
+<li>Hardware</li>
+<li>Problem solving</li>
+</ul>
+
+</div>
+
+<div class="card">
+<h2>Data Analyst</h2>
+<p>Menganalisis data untuk mendukung keputusan bisnis.</p>
+<ul>
+<li>Excel / SQL</li>
+<li>Data Visualization</li>
+<li>Critical Thinking</li>
+</ul>
+
+</div>
+
+<div class="card">
+<h2>Mobile App Developer</h2>
+<p>Membuat aplikasi Android dan iOS modern.</p>
+<ul>
+<li>Flutter / Kotlin</li>
+<li>API Integration</li>
+<li>UI Mobile</li>
+</ul>
+</div>
+
+</div>
+
+</div>
+
+<footer>
+    PT Digital Nusantara © 2026 | Solusi Digital Modern
+</footer>
+
+</body>
+</html>
