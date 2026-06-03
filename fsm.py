@@ -78,12 +78,13 @@ class Rekrutmen:
             self.respon=""
             self.state=State.Test
         elif(self.state==State.Test):#test
-            for i in range(0,len(soal[self.profesi])):
-                print(pertanyaan=soal[self.profesi][i]["pertanyaan"])#sementara memakai print
-                for j in range(0,len(soal[self.profesi][i]["opsi"])):
-                    print(soal[self.profesi][i]["opsi"][j])
-                self.jawaban.append(input("jawaban"))
-            print(self.jawaban)
+            pass
+            # for i in range(0,len(soal[self.profesi])):
+            #     print(pertanyaan=soal[self.profesi][i]["pertanyaan"])#sementara memakai print
+            #     for j in range(0,len(soal[self.profesi][i]["opsi"])):
+            #         print(soal[self.profesi][i]["opsi"][j])
+            #     self.jawaban.append(input("jawaban"))
+           # print(self.jawaban)
 
             #apakah soal harus ditaruh direspon atau tempat sendiri???????
             #masih belum terpikirkan
