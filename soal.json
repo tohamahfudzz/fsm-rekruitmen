@@ -1,0 +1,234 @@
+{
+  "kelompok_soal": [
+    {
+      "nama_kelompok": "Front End Developer",
+      "soal": [
+        {
+          "id": 1,
+          "pertanyaan": "Apa fungsi utama HTML dalam pengembangan web?",
+          "pilihan": {
+            "A": "Mengatur tampilan website",
+            "B": "Menyusun struktur halaman web",
+            "C": "Mengelola database",
+            "D": "Memproses data server"
+          },
+          "jawaban": "B"
+        },
+        {
+          "id": 2,
+          "pertanyaan": "CSS digunakan untuk?",
+          "pilihan": {
+            "A": "Menyimpan data",
+            "B": "Membuat API",
+            "C": "Mengatur tampilan dan desain halaman web",
+            "D": "Menghubungkan database"
+          },
+          "jawaban": "C"
+        },
+        {
+          "id": 3,
+          "pertanyaan": "Manakah yang merupakan framework JavaScript untuk Front End?",
+          "pilihan": {
+            "A": "Laravel",
+            "B": "Django",
+            "C": "React",
+            "D": "Spring Boot"
+          },
+          "jawaban": "C"
+        },
+        {
+          "id": 4,
+          "pertanyaan": "Tag HTML yang digunakan untuk membuat hyperlink adalah?",
+          "pilihan": {
+            "A": "<link>",
+            "B": "<a>",
+            "C": "<href>",
+            "D": "<url>"
+          },
+          "jawaban": "B"
+        },
+        {
+          "id": 5,
+          "pertanyaan": "Apa fungsi JavaScript pada Front End?",
+          "pilihan": {
+            "A": "Mengelola database",
+            "B": "Menambah interaktivitas halaman web",
+            "C": "Mengatur jaringan",
+            "D": "Membuat tabel database"
+          },
+          "jawaban": "B"
+        },
+        {
+          "id": 6,
+          "pertanyaan": "Properti CSS yang digunakan untuk mengubah warna teks adalah?",
+          "pilihan": {
+            "A": "background-color",
+            "B": "font-color",
+            "C": "text-color",
+            "D": "color"
+          },
+          "jawaban": "D"
+        },
+        {
+          "id": 7,
+          "pertanyaan": "Apa yang dimaksud dengan Responsive Web Design?",
+          "pilihan": {
+            "A": "Website hanya untuk desktop",
+            "B": "Website dapat menyesuaikan tampilan pada berbagai perangkat",
+            "C": "Website memiliki banyak warna",
+            "D": "Website menggunakan database"
+          },
+          "jawaban": "B"
+        },
+        {
+          "id": 8,
+          "pertanyaan": "Manakah metode JavaScript yang digunakan untuk memilih elemen berdasarkan id?",
+          "pilihan": {
+            "A": "querySelectorAll()",
+            "B": "getElementById()",
+            "C": "getElementsByClassName()",
+            "D": "findElement()"
+          },
+          "jawaban": "B"
+        },
+        {
+          "id": 9,
+          "pertanyaan": "Bootstrap merupakan?",
+          "pilihan": {
+            "A": "Database",
+            "B": "Framework CSS",
+            "C": "Bahasa Pemrograman",
+            "D": "Web Server"
+          },
+          "jawaban": "B"
+        },
+        {
+          "id": 10,
+          "pertanyaan": "Apa fungsi atribut alt pada tag img?",
+          "pilihan": {
+            "A": "Mengatur ukuran gambar",
+            "B": "Menentukan lokasi gambar",
+            "C": "Memberikan teks alternatif jika gambar gagal dimuat",
+            "D": "Mengubah warna gambar"
+          },
+          "jawaban": "C"
+        }
+      ]
+    },
+    {
+      "nama_kelompok": "Back End Developer",
+      "soal": [
+        {
+          "id": 1,
+          "pertanyaan": "Apa tugas utama Back End Developer?",
+          "pilihan": {
+            "A": "Mendesain UI",
+            "B": "Mengelola logika aplikasi dan database",
+            "C": "Membuat logo",
+            "D": "Mengedit gambar"
+          },
+          "jawaban": "B"
+        },
+        {
+          "id": 2,
+          "pertanyaan": "Manakah yang termasuk bahasa pemrograman Back End?",
+          "pilihan": {
+            "A": "HTML",
+            "B": "CSS",
+            "C": "PHP",
+            "D": "Figma"
+          },
+          "jawaban": "C"
+        },
+        {
+          "id": 3,
+          "pertanyaan": "SQL digunakan untuk?",
+          "pilihan": {
+            "A": "Mengatur desain web",
+            "B": "Mengelola database",
+            "C": "Membuat animasi",
+            "D": "Mengatur jaringan"
+          },
+          "jawaban": "B"
+        },
+        {
+          "id": 4,
+          "pertanyaan": "Perintah SQL untuk mengambil data dari tabel adalah?",
+          "pilihan": {
+            "A": "GET",
+            "B": "SELECT",
+            "C": "SHOW",
+            "D": "FETCH"
+          },
+          "jawaban": "B"
+        },
+        {
+          "id": 5,
+          "pertanyaan": "Apa fungsi API dalam pengembangan aplikasi?",
+          "pilihan": {
+            "A": "Mengatur warna website",
+            "B": "Menghubungkan dan bertukar data antar aplikasi",
+            "C": "Membuat database",
+            "D": "Mengatur layout halaman"
+          },
+          "jawaban": "B"
+        },
+        {
+          "id": 6,
+          "pertanyaan": "Framework PHP yang populer untuk Back End adalah?",
+          "pilihan": {
+            "A": "React",
+            "B": "Bootstrap",
+            "C": "Laravel",
+            "D": "Vue"
+          },
+          "jawaban": "C"
+        },
+        {
+          "id": 7,
+          "pertanyaan": "HTTP status code 404 menunjukkan?",
+          "pilihan": {
+            "A": "Server Error",
+            "B": "Success",
+            "C": "Unauthorized",
+            "D": "Resource Not Found"
+          },
+          "jawaban": "D"
+        },
+        {
+          "id": 8,
+          "pertanyaan": "Apa fungsi hashing password?",
+          "pilihan": {
+            "A": "Mempercepat internet",
+            "B": "Mengubah password menjadi bentuk yang lebih aman untuk disimpan",
+            "C": "Menghapus password",
+            "D": "Mengirim password ke database"
+          },
+          "jawaban": "B"
+        },
+        {
+          "id": 9,
+          "pertanyaan": "Database relasional yang populer adalah?",
+          "pilihan": {
+            "A": "MySQL",
+            "B": "Photoshop",
+            "C": "Bootstrap",
+            "D": "React"
+          },
+          "jawaban": "A"
+        },
+        {
+          "id": 10,
+          "pertanyaan": "Metode HTTP yang digunakan untuk mengirim data ke server adalah?",
+          "pilihan": {
+            "A": "GET",
+            "B": "POST",
+            "C": "DELETE",
+            "D": "OPTIONS"
+          },
+          "jawaban": "B"
+        }
+      ]
+    }
+  ]
+}
