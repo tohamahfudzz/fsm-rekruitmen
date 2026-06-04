@@ -33,6 +33,8 @@ class Rekrutmen:
         self.pengalaman=""
         self.jawaban=[]
         self.score=""
+        self.faseTest=""
+
 
     def proses(self,text):
         if(self.state==State.Start):
@@ -78,7 +80,9 @@ class Rekrutmen:
             self.respon=""
             self.state=State.Test
         elif(self.state==State.Test):#test
-            pass
+            self.faseTest="ya"
+            self.respon="silahkan ke ujian"
+            self.state=""
             # for i in range(0,len(soal[self.profesi])):
             #     print(pertanyaan=soal[self.profesi][i]["pertanyaan"])#sementara memakai print
             #     for j in range(0,len(soal[self.profesi][i]["opsi"])):
